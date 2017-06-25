@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    175746,       3855]
-NotebookOptionsPosition[    171058,       3714]
-NotebookOutlinePosition[    171434,       3731]
-CellTagsIndexPosition[    171391,       3728]
+NotebookDataLength[    178033,       3918]
+NotebookOptionsPosition[    173139,       3771]
+NotebookOutlinePosition[    173515,       3788]
+CellTagsIndexPosition[    173472,       3785]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -3691,8 +3691,65 @@ Cell[BoxData[
      RowBox[{"[", "16", "]"}], "]"}]}], ")"}]}]], "Input",
  CellChangeTimes->{{3.70735466067255*^9, 3.7073546928322816`*^9}}],
 
-Cell[BoxData["0.05543559791848914`"], "Output",
- CellChangeTimes->{{3.7073546668198814`*^9, 3.70735469637679*^9}}]
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"FindRoot", "::", "brmp"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"\:6839\:5df2\:7ecf\:88ab\:673a\:5668\:7cbe\:5ea6\:7d27\
+\:5bc6\:5305\:56f4\:ff0c\:4f46\:662f\:51fd\:6570\:503c\:8d85\:8fc7\:4e86\:7edd\
+\:5bf9\:5bb9\:5dee \[NoBreak]\\!\\(1.0536712127723497`*^-8\\)\[NoBreak]. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/FindRoot\\\", ButtonNote -> \
+\\\"FindRoot::brmp\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.7073601321557517`*^9}],
+
+Cell[BoxData["0.00006621935424439975`"], "Output",
+ CellChangeTimes->{{3.7073546668198814`*^9, 3.70735469637679*^9}, 
+   3.707360132157755*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", 
+   RowBox[{"Realen", "[", 
+    RowBox[{"[", "15", "]"}], "]"}]], 
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"e", "/.", 
+      RowBox[{"FindRoot", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"f", "[", "e", "]"}], "[", "r2", "]"}], "\[Equal]", "0"}], 
+         "/.", "sol2"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"e", ",", 
+          RowBox[{"-", "0.000022"}], ",", 
+          RowBox[{"-", "0.000023"}]}], "}"}]}], "]"}]}], ")"}], "+", 
+    RowBox[{"Realen", "[", 
+     RowBox[{"[", "15", "]"}], "]"}]}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.707360148334587*^9, 3.707360176742985*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"FindRoot", "::", "brmp"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"\:6839\:5df2\:7ecf\:88ab\:673a\:5668\:7cbe\:5ea6\:7d27\
+\:5bc6\:5305\:56f4\:ff0c\:4f46\:662f\:51fd\:6570\:503c\:8d85\:8fc7\:4e86\:7edd\
+\:5bf9\:5bb9\:5dee \[NoBreak]\\!\\(1.0536712127723497`*^-8\\)\[NoBreak]. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/FindRoot\\\", ButtonNote -> \
+\\\"FindRoot::brmp\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{{3.70736015597495*^9, 3.707360177489501*^9}}],
+
+Cell[BoxData["0.0000690713511370118`"], "Output",
+ CellChangeTimes->{{3.7073601559764404`*^9, 3.707360177492502*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3837,7 +3894,7 @@ Cell[144830, 3184, 19513, 334, 492, "Output"]
 Cell[CellGroupData[{
 Cell[164380, 3523, 1119, 28, 111, "Input"],
 Cell[165502, 3553, 628, 12, 28, "Message"],
-Cell[166133, 3567, 316, 4, 68, "Output"]
+Cell[166133, 3567, 316, 4, 35, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[166486, 3576, 812, 24, 111, "Input"],
@@ -3851,11 +3908,17 @@ Cell[169587, 3662, 146, 2, 35, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[169770, 3669, 709, 22, 111, "Input"],
-Cell[170482, 3693, 114, 1, 35, "Output"]
+Cell[170482, 3693, 580, 11, 28, "Message"],
+Cell[171065, 3706, 143, 2, 35, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[170633, 3699, 315, 9, 62, "Input"],
-Cell[170951, 3710, 91, 1, 35, "Output"]
+Cell[171245, 3713, 708, 22, 111, "Input"],
+Cell[171956, 3737, 601, 11, 28, "Message"],
+Cell[172560, 3750, 117, 1, 68, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[172714, 3756, 315, 9, 62, "Input"],
+Cell[173032, 3767, 91, 1, 35, "Output"]
 }, Open  ]]
 }
 ]
